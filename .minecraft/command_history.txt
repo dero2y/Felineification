@@ -1,0 +1,16 @@
+/season set late_autumn
+/season set mid_winter
+/teamsg
+/teammsg
+/teammsg t
+/give tooltech handcrafted:acacia_fancy_bed 100000000000
+/give tooltech handcrafted:acacia_fancy_bed 100000000
+/give tooltech handcrafted:acacia_fancy_bed 6400
+/season set mid_spring
+/weather clear
+/time add 10d
+/season set late_autumn
+/time set day
+/setblock 116 68 39 minecraft:cherry_leaves
+/gamemode creative
+/gamerule doMobSpawning false

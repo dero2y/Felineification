@@ -1,0 +1,262 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2024-03-20 23:12:08
+Description: Ticking screen
+
+java.nio.file.InvalidPathException: Illegal char <:> at index 23: resourcepacks/minecraft:supporteatinganimation/.panoramas
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.nio.file.Path.resolve(Path.java:515)
+	at com.panoramas.PanoramasClient.isAnyPanoramasResourcePackLoaded(PanoramasClient.java:149)
+	at net.minecraft.class_500.handler$cej000$panoramas$tickInjected(class_500.java:598)
+	at net.minecraft.class_500.method_25393(class_500.java:151)
+	at net.minecraft.class_310.method_1572(class_310.java:1985)
+	at net.minecraft.class_437.method_25412(class_437.java:414)
+	at net.minecraft.class_310.method_1574(class_310.java:1985)
+	at net.minecraft.class_310.method_1523(class_310.java:1289)
+	at net.minecraft.class_310.method_1514(class_310.java:888)
+	at net.minecraft.client.main.Main.main(Main.java:265)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:87)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:130)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153)
+	at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
+	at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
+	at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:232)
+	at java.base/java.nio.file.Path.resolve(Path.java:515)
+	at com.panoramas.PanoramasClient.isAnyPanoramasResourcePackLoaded(PanoramasClient.java:149)
+	at net.minecraft.class_500.handler$cej000$panoramas$tickInjected(class_500.java:598)
+	at net.minecraft.class_500.method_25393(class_500.java:151)
+	at net.minecraft.class_310.method_1572(class_310.java:1985)
+	at net.minecraft.class_437.method_25412(class_437.java:414)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.class_500
+Stacktrace:
+	at net.minecraft.class_437.method_25412(class_437.java:414)
+	at net.minecraft.class_310.method_1574(class_310.java:1985)
+	at net.minecraft.class_310.method_1523(class_310.java:1289)
+	at net.minecraft.class_310.method_1514(class_310.java:888)
+	at net.minecraft.client.main.Main.main(Main.java:265)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:87)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:130)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+
+-- Uptime --
+Details:
+	JVM uptime: 90.895s
+	Wall uptime: 68.429s
+	High-res time: 52.444s
+	Client ticks: 852 ticks / 42.600s
+Stacktrace:
+	at net.minecraft.class_310.method_1587(class_310.java:2564)
+	at net.minecraft.class_310.method_54580(class_310.java:995)
+	at net.minecraft.class_310.method_1514(class_310.java:908)
+	at net.minecraft.client.main.Main.main(Main.java:265)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:87)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:130)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, file/Chat Reporting Helper.zip, file/EclecticTrove-1.19-1.1.0.zip, file/falling-sakura-1-1-1.zip, file/[1.4] Enhanced Boss Bars.zip, file/Fancy Crops v1.0 pf5-22.zip, file/Unique Dark 1.20.4 (free).zip, minecraft:supporteatinganimation, presencefootsteps:default_sound_pack, file/LowOnFire_1.20.1.zip, file/cubic-sun-moon-vb1-7-4a.zip, file/No Cave Ambience 1.20.2.1.zip, file/Invisible-Item-Frames-V5.zip, file/Low Shield.zip, fabric, antighost, appleskin, betteradvancements, bettermineshafts, betterpingdisplay, boatiview, cardinal-components-base, cardinal-components-entity, chat_heads, cloth-config, controlling, craftpresence, craterlib, dark-loading-screen, ears, eatinganimationid, equipmentcompare, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, fancymenu, forgeconfigapiport, handcrafted, highlighter, iris, konkrete, lambdynlights, lazydfu, legendarytooltips, lithium, modmenu, morechathistory, panoramas, presencefootsteps, pride, searchables, sereneseasons, simplerpc, sodium, spruceui, toms_storage, tooltipfix, trinkets, visuality, waterdripsound
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.4
+	Minecraft Version ID: 1.20.4
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.10, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 558464152 bytes (532 MiB) / 2097152000 bytes (2000 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+	Identifier: Intel64 Family 6 Model 94 Stepping 3
+	Microarchitecture: Skylake (Client)
+	Frequency (GHz): 3.19
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: Intel(R) HD Graphics 530
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x1912
+	Graphics card #0 versionInfo: DriverVersion=31.0.101.2115
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 37416.60
+	Virtual memory used (MB): 10196.88
+	Swap memory total (MB): 4864.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms2000m -Xmx4096m
+	Fabric Mods: 
+		antighost: AntiGhost 1.20.4-fabric0.91.2-1.1.5
+			crowdin-translate: CrowdinTranslate 1.4+1.19.3
+		appleskin: AppleSkin 2.5.1+mc1.20.3
+		betteradvancements: Better Advancements 0.4.0.176
+		bettermineshafts: YUNG's Better Mineshafts 1.20.4-Fabric-4.4.1
+		betterpingdisplay: Better Ping Display 1.1.1
+		boatiview: Boat Item View Fabric 0.0.5
+		chat_heads: Chat Heads 0.10.32
+		cloth-config: Cloth Config v13 13.0.121
+			cloth-basic-math: cloth-basic-math 0.6.1
+		controlling: Controlling 15.0.3
+		craftpresence: CraftPresence 2.3.5
+		craterlib: CraterLib 1.1.0
+		dark-loading-screen: Dark Loading Screen 1.6.14
+		ears: Ears 1.4.6
+		eatinganimationid: Eating Animation 1.20+1.9.5
+		equipmentcompare: Equipment Compare 1.3.8
+		fabric-api: Fabric API 0.96.11+1.20.4
+			fabric-api-base: Fabric API Base 0.4.36+78d798af4f
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.49+82b1bb3e4f
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.16+78d798af4f
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.16+3e2216cb4f
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.4+78d798af4f
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.46+78d798af4f
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.7+78d798af4f
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.41+f71b366f4f
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.20+78d798af4f
+			fabric-commands-v0: Fabric Commands (v0) 0.2.58+df3654b34f
+			fabric-containers-v0: Fabric Containers (v0) 0.1.86+df3654b34f
+			fabric-content-registries-v0: Fabric Content Registries (v0) 5.0.15+78d798af4f
+			fabric-convention-tags-v1: Fabric Convention Tags 1.5.10+78d798af4f
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.23+78d798af4f
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.1.4+b90db5744f
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 13.2.4+5c0133444f
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.61+78d798af4f
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.1+09fc25014f
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.7.1+389931eb4f
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.74+df3654b34f
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.46+78d798af4f
+			fabric-item-api-v1: Fabric Item API (v1) 2.2.0+d6f2b0844f
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.0.26+58f8c0124f
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.41+78d798af4f
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.39+df3654b34f
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.3.0+a67ffb5d4f
+			fabric-loot-api-v2: Fabric Loot API (v2) 2.1.9+78d798af4f
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.5+78d798af4f
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.65+78d798af4f
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 1.0.8+78d798af4f
+			fabric-models-v0: Fabric Models (v0) 0.4.7+9386d8a74f
+			fabric-networking-api-v1: Fabric Networking API (v1) 3.1.7+2e5ac5484f
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 13.0.14+080016e44f
+			fabric-particles-v1: Fabric Particles (v1) 1.1.7+78d798af4f
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 2.0.20+78d798af4f
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 4.0.19+58f8c0124f
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.2.4+78d798af4f
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.5.4+78d798af4f
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.53+df3654b34f
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.42+73761d2e4f
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.1+e761c6694f
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.56+df3654b34f
+			fabric-rendering-v1: Fabric Rendering (v1) 3.2.0+6fd945a04f
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.3.14+78d798af4f
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.11.20+df798a894f
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.17+78d798af4f
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.55+78d798af4f
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.17+78d798af4f
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 4.0.11+eb30349a4f
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 5.0.14+78d798af4f
+		fabricloader: Fabric Loader 0.15.7
+			mixinextras: MixinExtras 0.3.5
+		fallingleaves: Falling Leaves 1.15.4
+		fancymenu: FancyMenu 3.1.2
+			com_github_keksuccino_japng: japng 0.5.3
+		forgeconfigapiport: Forge Config API Port 20.4.3
+		glitchcore: GlitchCore 1.0.0.59
+			com_electronwill_night-config_core: core 3.6.7
+			com_electronwill_night-config_toml: toml 3.6.7
+			net_jodah_typetools: typetools 0.6.3
+		handcrafted: Handcrafted 3.2.1
+		highlighter: Highlighter 1.1.9
+		iceberg: Iceberg 1.1.18
+		iris: Iris 1.6.17
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.0-pre13
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.11.1
+		java: Java HotSpot(TM) 64-Bit Server VM 17
+		konkrete: Konkrete 1.9.2
+		lambdynlights: LambDynamicLights 2.3.4+1.20.4
+			pride: Pride Lib 1.2.0+1.19.4
+			spruceui: SpruceUI 5.0.3+1.20.2
+		lazydfu: LazyDFU 0.1.3
+		legendarytooltips: Legendary Tooltips 1.4.5
+		lithium: Lithium 0.12.1
+		melody: Melody 1.0.3
+		memoryleakfix: Memory Leak Fix 1.1.5
+		minecraft: Minecraft 1.20.4
+		modmenu: Mod Menu 9.0.0
+		morechathistory: More Chat History 1.3.0
+		mousetweaks: Mouse Tweaks 2.25
+		panoramas: Panoramas 0.0.3
+		presencefootsteps: Presence Footsteps 1.11.2
+			kirin: Kirin UI 1.17.0+1.20.4
+		prism: Prism 1.0.6
+		resourcefullib: Resourceful Lib 2.4.10
+			com_teamresourceful_bytecodecs: bytecodecs 1.0.2
+			com_teamresourceful_yabn: yabn 1.0.3
+		searchables: Searchables 1.0.6
+		sereneseasons: SereneSeasons 9.3.0.23
+		simplerpc: Simple RPC 3.2.5
+		sodium: Sodium 0.5.8+mc1.20.4
+		toms_storage: Tom's Simple Storage Mod 1.6.11
+		tooltipfix: ToolTip Fix 1.1.1-1.20
+		trinkets: Trinkets 3.8.1
+			cardinal-components-base: Cardinal Components API (base) 5.4.0
+			cardinal-components-entity: Cardinal Components API (entities) 5.4.0
+		visuality: Visuality 0.7.3+1.20.4
+		waterdripsound: Drip Sounds 1.19-0.3.2
+		yungsapi: YUNG's API 1.20.4-Fabric-4.4.2
+			org_javassist_javassist: javassist 3.29.2-GA
+			org_reflections_reflections: reflections 0.10.2
+		yungsextras: YUNG's Extras 1.20.4-Fabric-4.4.0
+	Loaded Shaderpack: (off)
+	Launched Version: 1.20.4
+	Launcher name: PrismLauncher
+	Backend library: LWJGL version 3.3.2-snapshot
+	Backend API: Intel(R) HD Graphics 530 GL version 3.2.0 - Build 31.0.101.2115, Intel
+	Window size: 1920x1080
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Universe: 400921fb54442d18
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Render Distance: 12/12 chunks
+	Resource Packs: vanilla, file/Chat Reporting Helper.zip, file/EclecticTrove-1.19-1.1.0.zip (incompatible), file/falling-sakura-1-1-1.zip, file/[1.4] Enhanced Boss Bars.zip (incompatible), file/Fancy Crops v1.0 pf5-22.zip, file/Unique Dark 1.20.4 (free).zip, minecraft:supporteatinganimation (incompatible), presencefootsteps:default_sound_pack, file/LowOnFire_1.20.1.zip (incompatible), file/cubic-sun-moon-vb1-7-4a.zip, file/No Cave Ambience 1.20.2.1.zip (incompatible), file/Invisible-Item-Frames-V5.zip, file/Low Shield.zip (incompatible), fabric, panoramas
+	Current Language: en_us
+	Locale: en_US
+	CPU: 4x Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz

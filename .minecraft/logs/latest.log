@@ -1,0 +1,313 @@
+[00:38:55] [main/INFO]: Loading Minecraft 1.20.4 with Fabric Loader 0.15.7
+[00:38:56] [main/INFO]: Loading 120 mods:
+	- antighost 1.20.4-fabric0.91.2-1.1.5
+	   \-- crowdin-translate 1.4+1.19.3
+	- appleskin 2.5.1+mc1.20.3
+	- betteradvancements 0.4.0.176
+	- bettermineshafts 1.20.4-Fabric-4.4.1
+	   \-- org_reflections_reflections 0.10.2
+	- betterpingdisplay 1.1.1
+	- boatiview 0.0.5
+	- chat_heads 0.10.32
+	- cloth-config 13.0.121
+	   \-- cloth-basic-math 0.6.1
+	- controlling 15.0.3
+	- craftpresence 2.3.5
+	- craterlib 1.1.0
+	- dark-loading-screen 1.6.14
+	- ears 1.4.6
+	- eatinganimationid 1.20+1.9.5
+	- equipmentcompare 1.3.8
+	- fabric-api 0.96.11+1.20.4
+	   |-- fabric-api-base 0.4.36+78d798af4f
+	   |-- fabric-api-lookup-api-v1 1.6.49+82b1bb3e4f
+	   |-- fabric-biome-api-v1 13.0.16+78d798af4f
+	   |-- fabric-block-api-v1 1.0.16+3e2216cb4f
+	   |-- fabric-block-view-api-v2 1.0.4+78d798af4f
+	   |-- fabric-blockrenderlayer-v1 1.1.46+78d798af4f
+	   |-- fabric-client-tags-api-v1 1.1.7+78d798af4f
+	   |-- fabric-command-api-v1 1.2.41+f71b366f4f
+	   |-- fabric-command-api-v2 2.2.20+78d798af4f
+	   |-- fabric-commands-v0 0.2.58+df3654b34f
+	   |-- fabric-containers-v0 0.1.86+df3654b34f
+	   |-- fabric-content-registries-v0 5.0.15+78d798af4f
+	   |-- fabric-convention-tags-v1 1.5.10+78d798af4f
+	   |-- fabric-crash-report-info-v1 0.2.23+78d798af4f
+	   |-- fabric-data-attachment-api-v1 1.1.4+b90db5744f
+	   |-- fabric-data-generation-api-v1 13.2.4+5c0133444f
+	   |-- fabric-dimensions-v1 2.1.61+78d798af4f
+	   |-- fabric-entity-events-v1 1.6.1+09fc25014f
+	   |-- fabric-events-interaction-v0 0.7.1+389931eb4f
+	   |-- fabric-events-lifecycle-v0 0.2.74+df3654b34f
+	   |-- fabric-game-rule-api-v1 1.0.46+78d798af4f
+	   |-- fabric-item-api-v1 2.2.0+d6f2b0844f
+	   |-- fabric-item-group-api-v1 4.0.26+58f8c0124f
+	   |-- fabric-key-binding-api-v1 1.0.41+78d798af4f
+	   |-- fabric-keybindings-v0 0.2.39+df3654b34f
+	   |-- fabric-lifecycle-events-v1 2.3.0+a67ffb5d4f
+	   |-- fabric-loot-api-v2 2.1.9+78d798af4f
+	   |-- fabric-message-api-v1 6.0.5+78d798af4f
+	   |-- fabric-mining-level-api-v1 2.1.65+78d798af4f
+	   |-- fabric-model-loading-api-v1 1.0.8+78d798af4f
+	   |-- fabric-models-v0 0.4.7+9386d8a74f
+	   |-- fabric-networking-api-v1 3.1.7+2e5ac5484f
+	   |-- fabric-object-builder-api-v1 13.0.14+080016e44f
+	   |-- fabric-particles-v1 1.1.7+78d798af4f
+	   |-- fabric-recipe-api-v1 2.0.20+78d798af4f
+	   |-- fabric-registry-sync-v0 4.0.19+58f8c0124f
+	   |-- fabric-renderer-api-v1 3.2.4+78d798af4f
+	   |-- fabric-renderer-indigo 1.5.4+78d798af4f
+	   |-- fabric-renderer-registries-v1 3.2.53+df3654b34f
+	   |-- fabric-rendering-data-attachment-v1 0.3.42+73761d2e4f
+	   |-- fabric-rendering-fluids-v1 3.1.1+e761c6694f
+	   |-- fabric-rendering-v0 1.1.56+df3654b34f
+	   |-- fabric-rendering-v1 3.2.0+6fd945a04f
+	   |-- fabric-resource-conditions-api-v1 2.3.14+78d798af4f
+	   |-- fabric-resource-loader-v0 0.11.20+df798a894f
+	   |-- fabric-screen-api-v1 2.0.17+78d798af4f
+	   |-- fabric-screen-handler-api-v1 1.3.55+78d798af4f
+	   |-- fabric-sound-api-v1 1.0.17+78d798af4f
+	   |-- fabric-transfer-api-v1 4.0.11+eb30349a4f
+	   \-- fabric-transitive-access-wideners-v1 5.0.14+78d798af4f
+	- fabricloader 0.15.7
+	   \-- mixinextras 0.3.5
+	- fallingleaves 1.15.4
+	- fancymenu 3.1.2
+	   \-- com_github_keksuccino_japng 0.5.3
+	- forgeconfigapiport 20.4.3
+	- glitchcore 1.0.0.59
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- handcrafted 3.2.1
+	- highlighter 1.1.9
+	- iceberg 1.1.18
+	- iris 1.6.17
+	   |-- io_github_douira_glsl-transformer 2.0.0-pre13
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.11.1
+	- java 17
+	- konkrete 1.9.2
+	- lambdynlights 2.3.4+1.20.4
+	   |-- pride 1.2.0+1.19.4
+	   \-- spruceui 5.0.3+1.20.2
+	- lazydfu 0.1.3
+	- legendarytooltips 1.4.5
+	- lithium 0.12.1
+	- melody 1.0.3
+	- memoryleakfix 1.1.5
+	- minecraft 1.20.4
+	- modmenu 9.0.0
+	- morechathistory 1.3.0
+	- mousetweaks 2.25
+	- panoramica 1.3.0
+	- presencefootsteps 1.11.2
+	   \-- kirin 1.17.0+1.20.4
+	- prism 1.0.6
+	- resourcefullib 2.4.10
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- searchables 1.0.6
+	- sereneseasons 9.3.0.23
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- sodium 0.5.8+mc1.20.4
+	- toms_storage 1.6.11
+	- tooltipfix 1.1.1-1.20
+	- trinkets 3.8.1
+	   |-- cardinal-components-base 5.4.0
+	   \-- cardinal-components-entity 5.4.0
+	- visuality 0.7.3+1.20.4
+	- waterdripsound 1.19-0.3.2
+	- yungsapi 1.20.4-Fabric-4.4.2
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- yungsextras 1.20.4-Fabric-4.4.0
+	   \-- org_reflections_reflections 0.10.2
+[00:38:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/tooltech/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[00:38:57] [main/INFO]: Compatibility level set to JAVA_17
+[00:38:57] [main/WARN]: Reference map 'ForgeConfigAPIPort-Common-refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:38:58] [main/INFO]: Loaded configuration file for Lithium: 129 options available, 0 override(s) found
+[00:38:58] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:38:58] [main/INFO]: Loaded configuration file for Sodium: 42 options available, 3 override(s) found
+[00:38:58] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:38:58] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:38:59] [main/WARN]: Force-disabling mixin 'features.render.entity.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[00:38:59] [main/WARN]: Force-disabling mixin 'features.render.entity.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[00:38:59] [main/WARN]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[00:38:59] [main/WARN]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [iris]) disables it and children
+[00:38:59] [main/WARN]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [iris]) disables it and children
+[00:38:59] [main/WARN]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[00:38:59] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[00:38:59] [main/WARN]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[00:38:59] [main/INFO]: [MemoryLeakFix] Will be applying 3 memory leak fixes!
+[00:38:59] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [targetEntityLeak, biomeTemperatureLeak, hugeScreenshotLeak]
+[00:39:00] [main/INFO]: Searching for graphics cards...
+[00:39:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[00:39:01] [main/INFO]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) HD Graphics 530, version=DriverVersion=31.0.101.2115]
+[00:39:18] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:39:18] [Render thread/INFO]: Setting user: tooltech
+[00:39:18] [Render thread/INFO]: Reflections took 336 ms to scan 1 urls, producing 1 keys and 2 values
+[00:39:18] [Render thread/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[00:39:18] [Render thread/INFO]: BetterPingDisplay mod loaded
+[00:39:19] [Render thread/INFO]: [FANCYMENU] Loading v3.1.2 in client-side mode on FABRIC!
+[00:39:21] [Render thread/ERROR]: No data fixer registered for season_sensor
+[00:39:24] [Render thread/ERROR]: No data fixer registered for handcrafted
+[00:39:24] [Render thread/INFO]: [KONKRETE] Loading v1.9.2 in client-side mode on FABRIC!
+[00:39:24] [Render thread/INFO]: ---------------------------
+[00:39:24] [Render thread/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[00:39:24] [Render thread/INFO]:  
+[00:39:24] [Render thread/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
+[00:39:24] [Render thread/INFO]: Open Imaging is licensed under Apache-2.0.
+[00:39:24] [Render thread/INFO]:  
+[00:39:24] [Render thread/INFO]: JsonPath Copyright © 2017 Jayway.
+[00:39:24] [Render thread/INFO]: JsonPath is licensed under Apache-2.0.
+[00:39:24] [Render thread/INFO]:  
+[00:39:24] [Render thread/INFO]: Json-smart Copyright © netplex.
+[00:39:24] [Render thread/INFO]: Json-smart is licensed under Apache-2.0.
+[00:39:24] [Render thread/INFO]:  
+[00:39:24] [Render thread/INFO]: Exp4j Copyright © Frank Asseg.
+[00:39:24] [Render thread/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[00:39:24] [Render thread/INFO]: ---------------------------
+[00:39:24] [Render thread/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[00:39:24] [Render thread/INFO]: [MELODY] Loading Melody background audio library..
+[00:39:24] [Render thread/INFO]: [PANORAMICA] Loading v1.3.0 on FABRIC...
+[00:39:24] [Render thread/INFO]: Config loaded
+[00:39:24] [Render thread/INFO]: Tom's Storage Setup starting
+[00:39:25] [Render thread/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
+[00:39:25] [Render thread/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values
+[00:39:25] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[00:39:25] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[00:39:25] [Render thread/INFO]: Loaded
+[00:39:25] [Render thread/ERROR]: java.io.FileNotFoundException: C:\Users\tooltech\AppData\Roaming\PrismLauncher\instances\Felineification\.minecraft\config\betteradvancements.json (The system cannot find the file specified)
+[00:39:25] [CraftPresence/INFO]: Starting version check for "craftpresence" (MC 1.20.4) at "https://raw.githubusercontent.com/CDAGaming/VersionLibrary/master/CraftPresence/update.json"
+[00:39:25] [CraftPresence/INFO]: Received update status for "craftpresence" -> Release (Target version: "")
+[00:39:26] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[00:39:27] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_332::method_51435(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;)V has incompatible changes at opcode 152 in callback iceberg.mixins.json:GuiGraphicsMixin from mod iceberg->@Inject::storeLocalsOptifine(Lnet/minecraft/class_327;Ljava/util/List;IILnet/minecraft/class_8000;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/lang/Object;IIIILorg/joml/Vector2ic;)V.
+ Expected: [Ljava/lang/Object;, I, I, I, I, Lorg/joml/Vector2ic;]
+    Found: [I, I, I, I, Lorg/joml/Vector2ic;]
+Available: [I, I, I, I, Lorg/joml/Vector2ic;]
+[00:39:28] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[00:39:28] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[00:39:28] [CraftPresence/INFO]: Configuration settings have been saved and reloaded successfully!
+[00:39:28] [CraftPresence/INFO]: Checking for "atlauncher" pack data...
+[00:39:28] [CraftPresence/ERROR]: Unable to get "atlauncher" pack data (ignore if not using a "atlauncher" pack)
+[00:39:28] [CraftPresence/INFO]: Checking for "curse" pack data...
+[00:39:28] [CraftPresence/ERROR]: Unable to get "curse" pack data (ignore if not using a "curse" pack)
+[00:39:28] [CraftPresence/INFO]: Checking for "mcupdater" pack data...
+[00:39:28] [CraftPresence/ERROR]: Unable to get "mcupdater" pack data (ignore if not using a "mcupdater" pack)
+[00:39:28] [CraftPresence/INFO]: Checking for "modrinth" pack data...
+[00:39:28] [CraftPresence/ERROR]: Unable to get "modrinth" pack data (ignore if not using a "modrinth" pack)
+[00:39:28] [CraftPresence/INFO]: Checking for "multimc" pack data...
+[00:39:28] [CraftPresence/INFO]: Found "multimc" pack data! (Name: "Felineification", Icon: "felineification")
+[00:39:28] [CraftPresence/INFO]: Checking Discord for available assets with Client Id: 1220264031860953149
+[00:39:28] [CraftPresence/INFO]: Originally coded by paulhobbel - https://github.com/paulhobbel
+[00:39:29] [CraftPresence/INFO]: 3 total assets detected!
+[00:39:29] [Worker-Main-1/INFO]: Checking mod updates...
+[00:39:29] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[00:39:29] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[00:39:29] [CraftPresence/INFO]: Attempting to connect to Discord (1/10)...
+[00:39:29] [CraftPresence/INFO]: Loaded display data with Client Id: 1220264031860953149 (Logged in as tooltech)
+[00:39:31] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
+[00:39:32] [Render thread/INFO]: Backend library: LWJGL version 3.3.2-snapshot
+[00:39:32] [Render thread/INFO]: OpenGL Vendor: Intel
+[00:39:32] [Render thread/INFO]: OpenGL Renderer: Intel(R) HD Graphics 530
+[00:39:32] [Render thread/INFO]: OpenGL Version: 3.2.0 - Build 31.0.101.2115
+[00:39:33] [Render thread/INFO]: Debug functionality is disabled.
+[00:39:33] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[00:39:33] [Render thread/INFO]: Profile: NORMAL (+0 options changed by user)
+[00:39:33] [Render thread/INFO]: Using shaderpack: miniature-shader-2.9.1.zip
+[00:39:34] [Render thread/INFO]: Block minecraft:birch_leaves had its color provider replaced with sereneseasons.init.ModClient$$Lambda$6245/0x000001d8ded35130@108941f3 and will not use per-vertex coloring
+[00:39:34] [Render thread/INFO]: Hardware information:
+[00:39:34] [Render thread/INFO]: CPU: 4x Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+[00:39:34] [Render thread/INFO]: GPU: Intel(R) HD Graphics 530 (Supports OpenGL 3.2.0 - Build 31.0.101.2115)
+[00:39:34] [Render thread/INFO]: OS: Windows 10 (10.0)
+[00:39:35] [Render thread/INFO]: [FANCYMENU] Registering resource reload listener..
+[00:39:35] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: generic_dirt_message_screen
+[00:39:36] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: STARTING
+[00:39:36] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric, antighost, appleskin, betteradvancements, bettermineshafts, betterpingdisplay, boatiview, cardinal-components-base, cardinal-components-entity, chat_heads, cloth-config, controlling, craftpresence, craterlib, dark-loading-screen, ears, eatinganimationid, equipmentcompare, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, fancymenu, forgeconfigapiport, handcrafted, highlighter, iris, konkrete, lambdynlights, lazydfu, legendarytooltips, lithium, modmenu, morechathistory, panoramica, presencefootsteps, pride, searchables, sereneseasons, sodium, spruceui, toms_storage, tooltipfix, trinkets, visuality, waterdripsound
+[00:39:36] [Render thread/INFO]: [FANCYMENU] Preloading animations! This could cause the loading screen to freeze for a while..
+[00:39:36] [Render thread/INFO]: [FANCYMENU] Animation pre-loading completed!
+[00:39:36] [Render thread/INFO]: [FANCYMENU] Starting late client initialization phase..
+[00:39:36] [Render thread/INFO]: [KONKRETE] Client-side modules initialized and ready to use!
+[00:39:36] [Worker-Main-1/INFO]: Found unifont_all_no_pua-15.1.04.hex, loading
+[00:39:49] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[00:39:49] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[00:39:49] [Render thread/WARN]: Missing sound for event: minecraft:entity.generic.wind_burst
+[00:39:49] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[00:39:49] [Render thread/INFO]: Sound engine started
+[00:39:49] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
+[00:39:50] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[00:39:50] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[00:39:50] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[00:39:50] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[00:39:50] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[00:39:50] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[00:39:50] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[00:39:50] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[00:39:50] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[00:39:51] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[00:39:52] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[00:39:52] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[00:39:52] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[00:39:52] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[00:39:52] [Render thread/INFO]: [FANCYMENU] Reloading resources..
+[00:39:52] [Render thread/INFO]: [FANCYMENU] Pre-loading resources..
+[00:39:55] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[00:39:55] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: FINISHED
+[00:39:55] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: title_screen
+[00:39:55] [Render thread/INFO]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[00:39:55] [Render thread/INFO]: Starting custom uniform resolving
+[00:40:05] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: safety_screen
+[00:40:07] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: select_world_screen
+[00:40:09] [Render thread/INFO]: Loaded 7 recipes
+[00:40:09] [Render thread/INFO]: Loaded 1594 advancements
+[00:40:10] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: create_world_screen
+[00:40:13] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: options_screen
+[00:43:34] [Render thread/INFO]: [FANCYMENU] Custom window icon successfully updated!
+[00:43:36] [Render thread/INFO]: [FANCYMENU] Custom window icon successfully updated!
+[00:47:37] [Render thread/INFO]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[00:49:42] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI
+[00:49:45] [Render thread/INFO]: Flushed changes to Minecraft configuration
+[00:50:27] [Render thread/INFO]: [FANCYMENU] Custom window icon successfully updated!
+[01:02:50] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: com.terraformersmc.modmenu.gui.ModsScreen
+[01:02:50] [Render thread/WARN]: Warning! Mod betteradvancements has a broken icon, loading default icon
+[01:02:55] [Render thread/INFO]: [FANCYMENU] Custom window icon successfully updated!
+[01:03:45] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: pack_selection_screen
+[01:03:48] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: confirm_screen
+[01:04:34] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: STARTING
+[01:04:34] [Render thread/INFO]: Reloading ResourceManager: vanilla, file/Low Shield.zip, file/EclecticTrove-1.19-1.1.0.zip, file/LowOnFire_1.20.1.zip, file/No Cave Ambience 1.20.2.1.zip, file/Invisible-Item-Frames-V5.zip, file/cubic-sun-moon-vb1-7-4a.zip, presencefootsteps:default_sound_pack, minecraft:supporteatinganimation, file/Chat Reporting Helper.zip, file/falling-sakura-1-1-1.zip, fabric, antighost, appleskin, betteradvancements, bettermineshafts, betterpingdisplay, boatiview, cardinal-components-base, cardinal-components-entity, chat_heads, cloth-config, controlling, craftpresence, craterlib, dark-loading-screen, ears, eatinganimationid, equipmentcompare, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fallingleaves, fancymenu, forgeconfigapiport, handcrafted, highlighter, iris, konkrete, lambdynlights, lazydfu, legendarytooltips, lithium, modmenu, morechathistory, panoramica, presencefootsteps, pride, searchables, sereneseasons, sodium, spruceui, toms_storage, tooltipfix, trinkets, visuality, waterdripsound
+[01:04:34] [Worker-Main-10/INFO]: Found unifont_all_no_pua-15.1.04.hex, loading
+[01:04:42] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[01:04:42] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01:04:42] [Render thread/WARN]: Missing sound for event: minecraft:entity.generic.wind_burst
+[01:04:42] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[01:04:42] [Render thread/INFO]: Sound engine started
+[01:04:42] [Render thread/INFO]: [FANCYMENU] Reloading AudioResourceHandler after Minecraft SoundEngine reload..
+[01:04:43] [Render thread/INFO]: Created: 4096x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[01:04:43] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[01:04:43] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[01:04:43] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[01:04:43] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[01:04:43] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[01:04:43] [Render thread/INFO]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[01:04:43] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[01:04:43] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01:04:43] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01:04:44] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[01:04:44] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[01:04:44] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01:04:44] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[01:04:44] [Render thread/INFO]: [FANCYMENU] Reloading resources..
+[01:04:44] [Render thread/INFO]: [FANCYMENU] Pre-loading resources..
+[01:04:46] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[01:04:46] [Render thread/INFO]: [FANCYMENU] Minecraft resource reload: FINISHED
+[01:04:51] [Render thread/INFO]: OpenGL debug message: id=1282, source=API, type=ERROR, severity=HIGH, message='Error has been generated. GL error GL_INVALID_OPERATION in (null): (ID: 173538523) Generic error'
+[01:05:12] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: telemetry_info_screen
+[01:05:15] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: controls_screen
+[01:05:16] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: com.blamejared.controlling.client.NewKeyBindsScreen
+[01:05:41] [Render thread/INFO]: [FANCYMENU] Custom window icon successfully updated!
+[01:05:50] [Render thread/INFO]: Stopping!
+[01:05:50] [Render thread/INFO]: [FANCYMENU] ScreenCustomizationLayer registered: progress_screen
+[01:05:50] [CraftPresence/INFO]: Shutting down CraftPresence...
