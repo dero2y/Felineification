@@ -4,6 +4,7 @@ Felineification
 ![logo](icon.png)
 
 ![logo](github_46h.png) ![https://modrinth.com/modpack/felineification](modrinth_46h.png)
+https://modrinth.com/modpack/felineification
 >Felineification! Let your eye boggle and your hearts speed up at this fluffy modpack! Felineification is a vanilla+ modpack aimed at providing the player game-changing features without straying too far from vanilla.
 >
 
