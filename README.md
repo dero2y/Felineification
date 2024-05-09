@@ -37,9 +37,12 @@ Felineification
 >>- AppleSkin
 >>- Better Advancements
 >>- GlitchCore
+>>- Midnight Controls
+>>- Shulkerbox tooltips
 >>- Boat Item View Fabric
 >>- CraftPresence
 >>- Falling Leaves
+>>- Waystones
 >>- Sodium
 >>- Iris
 >>- Ears
